@@ -1,0 +1,578 @@
+{% load static %}
+<!DOCTYPE HTML>
+
+ <html>
+
+    <head>
+
+    	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+        <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+        <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+        <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+        <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+        <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="{% static 'assets/css/slick.css' %}"> 
+        <link rel="stylesheet" href="{% static 'assets/css/slick-theme.css' %}">
+        <link rel="stylesheet" href="{% static 'assets/css/animate.css' %}">
+        <link rel="stylesheet" href="{% static 'assets/css/iconfont.css' %}">
+        <link rel="stylesheet" href="{% static 'assets/css/font-awesome.min.css' %}">
+        <link rel="stylesheet" href="{% static 'assets/css/bootstrap.css' %}">
+        <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}">
+        <link rel="stylesheet" href="{% static 'assets/css/bootsnav.css' %}">
+
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="{% static 'assets/css/plugins.css' %}" />
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}" />
+
+        <script src="{% static 'assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js' %}"></script>
+
+        <!-- Template Main CSS File -->
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+        <!-- Máquina de escribir CSS File -->
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+        <!-- Autor Carlos Arteaga (Arteaga | Corporación S. de R.L. de C.V.
+            5 y 6 de octubre del 2024) -->
+
+        <meta name="description" content="">
+
+        <meta name="author" content="">
+
+        
+
+        <title>Agro | Trace</title>
+
+		<link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+
+
+
+        <!-- style -->
+        <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css">
+        <!-- style -->
+
+        <!-- bootstrap -->
+        <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+
+        <!-- responsive -->
+        <link href="{% static 'css/responsive.css' %}" rel="stylesheet" type="text/css">
+
+        <!-- font-awesome -->
+        <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+
+        <!-- font-awesome -->
+        <link href="{% static 'css/effects/set2.css' %}" rel="stylesheet" type="text/css">
+        <link href="{% static 'css/effects/normalize.css' %}" rel="stylesheet" type="text/css">
+        <link href="{% static 'css/effects/component.css' %}"  rel="stylesheet" type="text/css"> 
+
+	</head>
+
+
+
+    <body>
+
+    
+
+    	<!-- header -->
+
+        	<header role="header">
+
+            	<div class="container">
+
+                	<!-- logo -->
+
+                    	<h1>
+
+                        	<a href="#" title="avana LLC"><img width="50" height="50" src="{% static 'images/logo.png' %}" title="avana LLC" alt="avana LLC"/></a>
+
+                        </h1>
+
+                    <!-- logo -->
+
+                    <!-- nav -->
+
+                    <nav role="header-nav" class="navy">
+
+                        <ul> 
+
+                            <li class="nav-active"><a href="" title="Work">Datos de la NASA</a></li>
+                            <li><a href="#" title="About">Sobre la APP</a></li>
+                            <li><a href="#" title="Blog">Visualización de Datos</a></li>
+                            <li><a href="#" title="Contact">Contacto</a></li>
+
+                        </ul>
+
+                    </nav>
+
+                    <!-- nav -->
+
+                </div>
+
+            </header>
+
+        <!-- header -->
+
+        <!-- main -->
+
+        <main role="main-home-wrapper" class="container">
+
+        	
+
+            <div class="row">
+            	<section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+
+                	<article role="pge-title-content">
+
+                    	<header>
+
+                        	<h2><span>AGRO-Trace</span> Datos Espaciales de la NASA.</h2>
+
+                        </header>
+
+                        <p>Apoyo al agricultor.</p>
+
+                    </article>
+
+                </section>
+
+                
+
+                <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
+
+                	<figure class="effect-oscar">
+
+                    	<img src="{% static 'images/home-images/coffee4.jpg' %}" alt="" class="img-responsive"/>
+
+                        <figcaption>
+
+                        	<h2>Datos - <span>NASA</span></h2>
+
+							<p>Software AGRO | Trace</p>
+
+							<a href="">Ir</a> 
+
+                        </figcaption>
+
+                    </figure>
+                    
+                </section>
+
+                
+
+            
+
+                
+
+                <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
+
+                	<ul class="grid-lod effect-2" id="grid">
+
+                    	<li>
+
+                        	<figure class="effect-oscar">
+
+                            <img src="{% static 'images/home-images/superficies.jpg' %}" alt="" class="img-responsive"/>
+
+                            <figcaption>
+
+                            	
+
+                                    <h2 style="color: black;">Superficies Terrestres y  <span style="color: black;" >Clima</span></h2>
+
+                                    <p>Analiza datos históricos.</p>
+
+                                    
+
+                                
+
+                            </figcaption>
+
+                        </figure>
+                        </li>
+
+                        
+
+                        <li>
+
+                        	<figure class="effect-oscar">
+
+                            <img src="{% static 'images/home-images/finca.jpg' %}" alt="" class="img-responsive"/>
+
+                            <figcaption>
+
+                                <h2>Rentabilidad de <span>su finca</span></h2>
+
+                                <p>Un software administrativo para que controle su entradas/salidas de dinero y cómo se utilizan los recursos que le dará mayor control para la toma de decisiones.</p>
+
+                                
+
+                            </figcaption>
+
+                        </figure>
+
+                        </li>
+
+                        <li>
+
+                        	<figure class="effect-oscar">
+
+                            <img src="{% static 'images/home-images/coffee5.jpg' %}" alt="" class="img-responsive"/>
+
+                             <figcaption>
+
+                                <h2>Porcentaje de <span>Sombra</span></h2>
+                                    <p>Los árboles de café no debe recibir más de 1,800 horas de luz solar.</p>
+                                
+
+                            </figcaption>
+
+                        </figure>
+
+                        </li>
+
+                        <li>
+
+                        	<figure class="effect-oscar">
+
+                            <img src="{% static 'images/home-images/coffeetraz.jpg' %}" alt="" class="img-responsive"/>
+
+                             <figcaption>
+
+                                <h2>Semillas y <span>tierra</span></h2>
+                                <p>Si no tenemos trazabilidad, no sabemos qué sustratos se han utilizado, cuál es el tamaño de la bolsa y cuál es el origen de la semilla.</p>
+                                
+
+                            </figcaption>
+
+                        </figure>
+
+                        </li>
+
+                        <li>
+
+                        	<figure class="effect-oscar">
+
+                            <img src="{% static 'images/home-images/coffee5.jpg' %}" alt="" class="img-responsive"/>
+
+                             <figcaption>
+
+                                <h2>Densidad de <span>siembra</span></h2>
+                                    <p>La cantidad de árboles que puedes plantar en un área depende del clima y las condiciones del suelo,</p>
+                                
+
+                            </figcaption>
+
+                        </figure>
+
+                        </li>
+
+                       
+
+                        
+
+                        
+
+                    </ul>
+
+                </section>
+
+                
+
+                <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
+
+                	<ul class="grid-lod effect-2" id="grid">
+
+                    	<li>
+
+                        	<figure class="effect-oscar">
+
+                            <img src="{% static 'images/home-images/Seguridad_Alimentaria.jpg' %}" alt="" class="img-responsive"/>
+
+                             <figcaption>
+
+                                <h2>Seguridad <span>Alimentaria</span></h2>
+
+                                <p>Ciencia que estudia cómo proteger la salud y los intereses de los consumidores desde el punto de vista de la higiene de los alimentos.</p>
+
+                                
+
+                            </figcaption>
+
+                        </figure>
+
+                        </li>
+
+                        <li>
+
+                        	<figure class="effect-oscar">
+
+                            <img src="{% static 'images/home-images/Seguridad_Alimentaria2.jpg' %}" alt="" class="img-responsive"/>
+
+                             <figcaption>
+
+                                <h2>Gestión <span>Alimentaria</span></h2>
+
+                                <p>Identificación del producto, materias primas utilizadas, manejo, producción, transformación y presentación del producto.</p>
+
+                                
+
+                            </figcaption>
+
+                        </figure>
+
+                        </li>
+
+                        <li>
+
+                        	<figure class="effect-oscar">
+
+                            <img src="{% static 'images/home-images/coffee3.jpg' %}" alt="" class="img-responsive"/>
+
+                             <figcaption>
+
+                                <h2>Mejora <span>continua</span></h2>
+
+                                <p>Mantener una cultura de mejora continua dará un empuje a su producción en cantidad y calidad en el café.</p>
+
+                                
+
+                            </figcaption>
+
+                        </figure>
+
+                        </li>
+
+                        <li>
+
+                        	<figure class="effect-oscar">
+
+                            <img src="{% static 'images/home-images/coffee8.jpg' %}" alt="" class="img-responsive"/>
+
+                             <figcaption>
+
+                                <h2>Trazabilidad <span>del producto</span></h2>
+
+                                <p>Tiene beneficios a corto y largo plazo en cuanto a todo su ciclo de cosecha.</p>
+
+                                
+
+                            </figcaption>
+
+                        </figure>
+
+                        </li>
+
+                        <li>
+
+                        	<figure class="effect-oscar">
+
+                            <img src="{% static 'images/home-images/coffee3.jpg' %}" alt="" class="img-responsive"/>
+
+                             <figcaption>
+
+                               <h2>Gestión de <span>riesgos</span></h2>
+
+                                <p>Mantenga una cultura bajasa en la gestión y medición de los riesgos asociados en el suelo, planta y producto.</p>
+
+                                
+
+                            </figcaption>
+
+                        </figure>
+
+                        </li>
+
+                        
+
+                        <li>
+
+                       	 	<figure class="effect-oscar">
+
+                            <img src="{% static 'images/home-images/coffee3.jpg' %}" alt="" class="img-responsive"/>
+
+                             <figcaption>
+
+                                <h2>Control de <span>calidad</span></h2>
+
+                                <p>Implemente controles de calidad que vayan desde el uso de químicos para plagas hasta el adecuado corte del grano.</p>
+
+                                
+
+                            </figcaption>
+
+                        </figure>
+
+                        </li>
+
+                        <li>
+
+                        	<figure class="effect-oscar">
+
+                            <img src="{% static 'images/home-images/coffee9.jpg' %}" alt="" class="img-responsive"/>
+
+                             <figcaption>
+
+                                <h2>Establezca  <span>indicadores de desempeño.</span></h2>
+
+                                <p>Aplicado a cada corte de café por temporada, para establecer precedencia de datos que dan comportamientos de todo su proceso.</p>
+
+                                
+
+                            </figcaption>
+
+                        </figure>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+                <div class="clearfix"></div>
+
+            </div>
+
+        </main>
+
+    	<!-- main -->
+
+        <!-- footer -->
+
+        <footer role="footer">
+
+            <!-- logo -->
+
+                <h1>
+
+                    <a href="#" title="avana LLC"><img width="100" height="100" src="{% static 'images/logo.png' %}" title="avana LLC" alt="avana LLC"/></a>
+
+                </h1>
+
+            <!-- logo -->
+
+            <!-- nav -->
+
+            <nav role="footer-nav">
+
+            	
+
+            </nav>
+
+            <!-- nav -->
+
+            <!-- ======= Sección Equipo Hackathon 2024 ======= -->
+           
+            <section id="teams" class="teams roomy-80">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_teams_content fix">
+                            <div class="col-md-6">
+                                <div class="teams_item">
+                                    <div class="head_title">
+                                        <h2 class="text-uppercase">Nuestro <strong>Equipo</strong></h2>
+                                    </div>
+                                    <p>Equipo Ad-Astra (Mundo Verde) para el desafío Aprovechamiento de los datos de observación de la Tierra para la toma de decisiones agrícolas fundamentadas.</p>
+
+
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="teams_item text-center sm-m-top-50">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <img src="{% static 'images/carlos.jpg' %}" alt="" class="img-circle" />
+                                            <h4 class="m-top-20">MSc. <strong>Carlos Arteaga</strong></h4>
+                                            <h5>Desarrollador de Software </h5>
+                                            <h5>Tegucigalpa, Honduras </h5>
+                                            <div class="separator"></div>
+                                            
+                                        </div><!-- End off col-md-4 -->
+                                        <div class="col-sm-3">
+                                            <img src="{% static 'images/ali.png' %}" alt="" class="img-circle" />
+                                            <h4 class="m-top-20">MSc. <strong>Aliya Ali</strong></h4>
+                                            <h5>Analista de Datos</h5>
+                                            <h5>Quetta, Pakistán </h5>
+                                            <div class="separator"></div>
+                                            
+                                        </div><!-- End off col-md-4 -->
+                                        <div class="col-sm-4">
+                                            <img src="{% static 'images/luis.jpeg' %}" alt="" class="img-circle" />
+                                            <h4 class="m-top-20">MSc. <strong>Luis Pérez</strong></h4>
+                                            <h5>Administrador Agrícola</h5>
+                                            <h5>Marcala, Honduras </h5>
+                                            <div class="separator"></div>
+                                            
+                                        </div><!-- End off col-md-4 -->
+                                    </div>
+                                </div>
+                            </div><!-- End off col-md-6 -->
+                        </div><!-- End off main Team -->
+
+                        
+                    </div><!-- End off row -->
+                </div><!-- End off container -->
+            </section>
+    <!-- FIN Equipo Hackathon 2024 -->
+
+         
+
+           
+
+            <p class="copy-right">Creado en <i class="fa fa-love"></i><a href="#">Hackathon 2024 Digital Challenge / SpaceApps NASA</a></p>
+
+        </footer>
+
+        <!-- footer -->
+
+    
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+        <script src="{% static 'js/jquery.min.js' %}" type="text/javascript"></script>
+
+        <!-- custom -->
+
+		<script src="{% static 'js/nav.js' %}" type="text/javascript"></script>
+
+        <script src="{% static 'js/custom.js' %}" type="text/javascript"></script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+        <script src="{% static 'js/bootstrap.min.js' %}" type="text/javascript"></script>
+
+        <script src="{% static 'js/effects/masonry.pkgd.min.js' %}"  type="text/javascript"></script>
+
+		<script src="{% static 'js/effects/imagesloaded.js' %}"  type="text/javascript"></script>
+
+		<script src="{% static 'js/effects/classie.js' %}"  type="text/javascript"></script>
+
+		<script src="{% static 'js/effects/AnimOnScroll.js' %}"  type="text/javascript"></script>
+
+        <script src="{% static 'js/effects/modernizr.custom.js' %}"></script>
+
+        <!-- jquery.countdown -->
+
+        <script src="{% static 'js/html5shiv.js' %}" type="text/javascript"></script>
+
+        <!-- {% static 'vendor JS Files -->
+        <script src="{% static 'vendor/aos/aos.js' %}"></script>
+        <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+        <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+        <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+        <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+        <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+        <script src="{% static 'js/main.js' %}"></script>
+        <script src="{% static 'js/machine.js' %}"></script>
+
+    </body>
+
+</html>
